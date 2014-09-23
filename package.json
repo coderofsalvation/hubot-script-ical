@@ -1,0 +1,27 @@
+{
+  "name": "hubot-script-ical",
+  "version": "0.0.1",
+  "description": "google calendar integration, allows hubot to notify roommembers when ical events (are about) to happen",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coderofsalvation/hubot-script-ical.git"
+  },
+  "dependencies":{
+    "ical":"",
+    "request":""
+  },
+  "keywords": [
+    "ical",
+    "calendar"
+  ],
+  "author": "Leon van Kammen / coderofsalvation",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/coderofsalvation/hubot-script-ical/issues"
+  },
+  "homepage": "https://github.com/coderofsalvation/hubot-script-ical"
+}
