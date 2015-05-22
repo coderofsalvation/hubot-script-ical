@@ -16,9 +16,9 @@ It automatically retrieves the URL looking for changes and new events
 
 # Commands:
 
-  hubot calendar <room> <calendar-url> - Set calendar for some room using events from some feed
-  hubot calendar <room> - Clear calendar from some room
-  hubot calendar - List current calendars and upcoming events
+- `hubot calendar <room> <calendar-url>` - Set calendar for some room using events from some feed
+- `hubot calendar <room>` - Clear calendar from some room
+- `hubot calendar` - List current calendars and upcoming events
 
 # Credits
 
