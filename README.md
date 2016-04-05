@@ -14,6 +14,13 @@ http://support.google.com/calendar/bin/answer.py?hl=en&answer=37648
 
 It automatically retrieves the URL looking for changes and new events
 
+# Environment Variables:
+
+- `CALENDAR_MESSAGE_POOLING_TIME`
+- `CALENDAR_CHANGES_POOLING_TIME`
+- `CALENDAR_MESSAGE_DELAY`
+- `CALENDAR_ROOM_MESSAGE`
+
 # Commands:
 
 - `hubot calendar <room> <calendar-url>` - Set calendar for some room using events from some feed
