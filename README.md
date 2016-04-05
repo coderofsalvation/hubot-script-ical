@@ -16,6 +16,7 @@ It automatically retrieves the URL looking for changes and new events
 
 # Environment Variables:
 
+All environment variables are optional. The script will default to the preset variables in no environment variables are set
 - `CALENDAR_MESSAGE_POOLING_TIME`
 - `CALENDAR_CHANGES_POOLING_TIME`
 - `CALENDAR_MESSAGE_DELAY`
