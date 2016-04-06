@@ -61,13 +61,13 @@ class Calendar
 
     @options = {
       # pooling time between checks (milliseconds)
-      messaging_pooling_time: 1 * 1000
+      messaging_pooling_time: process.env.CALENDAR_MESSAGE_POOLING_TIME or 1 * 1000
       # pooling time between refreshes (milliseconds)
-      calchanges_pooling_time: 1 * 1000
+      calchanges_pooling_time: process.env.CALENDAR_CHANGES_POOLING_TIME or 1 * 1000
       # advice time for events about to happen (minutes)
-      about_to_happen_delay: 10
+      about_to_happen_delay: process.env.CALENDAR_MESSAGE_DELAY or 10
       # about to happen message
-      about_to_happen_message: "@all Event '$0' is about to begin in $1 minutes"
+      about_to_happen_message: process.env.CALENDAR_ROOM_MESSAGE or "@all Event '$0' is about to begin in $1 minutes"
     }
 
     # load previously loaded calendars from brain (removes current calendars :p)
