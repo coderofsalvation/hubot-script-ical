@@ -13,7 +13,7 @@
 #   hubot calendar <room> - Clear calendar from some room
 #   hubot calendar - List current calendars and upcoming events
 #
-ical = require 'ical'
+ical = require 'node-ical'
 request = require 'request'
 MAXEVENTS = 10
 
